@@ -15,7 +15,7 @@ def get_db():
 
 @app.route('/')
 def ping_server():
-    return "Welcome to the world of animals."
+    return "Welcome to the world of animal."
 
 @app.route('/animals')
 def get_stored_animals():
